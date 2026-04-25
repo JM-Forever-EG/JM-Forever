@@ -13,11 +13,21 @@
     <p class="tagline">نحمي السيرفرات... ونحمي قلوبنا</p>
     
     <div class="buttons">
-      <a href="contact.html" class="btn">تواصل معانا</a>
-      <a href="#" class="btn">ابدأ الحماية</a>
+      <a href="https://wa.me/201127927372" class="btn" target="_blank">تواصل معانا</a>
+      <a href="#" class="btn" onclick="activateProtection()">ابدأ الحماية</a>
     </div>
     
+    <p id="protection-text" class="protection"></p>
     <p class="footer">محمد بيحب جميل ∞</p>
   </div>
+
+  <script>
+    function activateProtection() {
+      const text = document.getElementById('protection-text');
+      text.innerHTML = '🛡️ تم تفعيل الحماية بنجاح 🛡️<br>J&M Security ∞<br>جميل ❤️ محمد';
+      text.style.display = 'block';
+      text.style.animation = 'glow 1s infinite alternate';
+    }
+  </script>
 </body>
 </html>
