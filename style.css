@@ -14,38 +14,45 @@ body {
   padding: 20px;
 }
 h1 {
-  font-size: 70px;
+  font-size: 80px;
   margin: 0;
   font-weight: 900;
+  letter-spacing: 5px;
 }
 .red {
   color: #ff0040;
-  text-shadow: 0 0 20px #ff0040;
+  text-shadow: 0 0 20px #ff0040, 0 0 40px #ff0040;
 }
-.white {
-  color: #fff;
-  text-shadow: 0 0 20px #00ffff;
+.blue {
+  color: #00ffff;
+  text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
 }
 .security {
-  font-size: 60px;
+  font-size: 65px;
   margin: 10px 0 30px 0;
-  color: #fff;
-  text-shadow: 0 0 25px #00ffff, 0 0 40px #00ffff;
+  color: #00ffff;
+  text-shadow: 0 0 25px #00ffff, 0 0 50px #00ffff;
   font-weight: 700;
 }
 .tagline {
-  font-size: 18px;
-  color: #888;
-  margin: 20px 0 40px 0;
+  font-size: 20px;
+  color: #ccc;
+  margin: 30px 0 50px 0;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .btn {
   display: inline-block;
-  padding: 15px 40px;
+  padding: 15px 35px;
   background: transparent;
   color: #00ffff;
   text-decoration: none;
   border: 2px solid #00ffff;
-  font-size: 20px;
+  font-size: 18px;
   box-shadow: 0 0 15px #00ffff;
   transition: 0.3s;
 }
@@ -55,6 +62,6 @@ h1 {
 }
 .footer {
   margin-top: 80px;
-  font-size: 14px;
-  color: #444;
+  font-size: 16px;
+  color: #666;
 }
